@@ -41,3 +41,13 @@ the first block is the genesis block.
     type <code> { "sender":"","recipient":"","amount":"" } </code>. It will add the transaction to ythe pending transaction of all the nodes in the network and is removed from the transaction unless a new bock in mined.
  
  6) If you add the new node in the network, and done minig and transactions and want to synchronize it with the other nodes in the network  , then use consensus <code> GET http://localhost:3001/consensus</code> make sure you run this from the node you want to add.
+
+ 7) if you want to search the block by its hash, address or the transactionId, then use :- 
+ 
+    <code>GET http://localhost:3001/block/:blochash </code>
+    
+    <code>GET http://localhost:3001/transaction/:transactionId </code>
+    
+    <code>GET http://localhost:3001/address/:address </code>
+    
+  8) You can also use the link GET http://localhost:3001/block-explorer to search the blocks after entring the details

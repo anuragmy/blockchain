@@ -50,4 +50,4 @@ the first block is the genesis block.
     
     <code>GET http://localhost:3001/address/:address </code>
     
-  8) You can also use the link GET http://localhost:3001/block-explorer to search the blocks after entring the details
+  8) You can also use the link <code> GET http://localhost:3001/block-explorer </code> to search the blocks after entring the details
